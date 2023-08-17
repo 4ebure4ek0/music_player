@@ -1,0 +1,26 @@
+.playing_card{
+    background-color: #e7e7e7;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.playing_img{
+    width: 300px;
+}
+.playing_buttons{
+    display: flex;
+    gap: 40px;
+}
+.playing_button{
+    background-color: #fff;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+}
