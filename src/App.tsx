@@ -1,11 +1,18 @@
+import MainPage from 'pages/mainPage/mainPage'
 import './App.css'
-import Player from './components/player/player'
+import { BrowserRouter } from 'react-router-dom'
+import { Route, Routes } from 'react-router'
+import Layout from 'components/layout/layout'
 
 function App() {
   return (
-    <div>
-      <Player />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route path='/' element={<MainPage />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

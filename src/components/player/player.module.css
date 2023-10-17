@@ -1,26 +1,30 @@
 .playing_card{
-    background-color: #e7e7e7;
-    max-width: 500px;
-    margin: 0 auto;
-    border-radius: 15px;
-    padding: 20px;
+    background-image: url(/public/assets/img/albums/zapiskiOLubvi_sqwozBab.jpg);
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
+    justify-content: end;
     align-items: center;
-    gap: 20px;
 }
-.playing_img{
-    width: 300px;
+.playing_desc{
+    backdrop-filter: blur(14px);
+    background-color: #0000004a;
+    transform: translateY(-20%);
+    padding: 10px;
+    border-radius: 7px;
 }
 .playing_buttons{
     display: flex;
     gap: 40px;
 }
 .playing_button{
-    background-color: #fff;
+    background: transparent;
     border: none;
     height: 60px;
     width: 60px;
-    border-radius: 30px;
     cursor: pointer;
 }

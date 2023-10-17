@@ -1,0 +1,17 @@
+.container{
+    padding: 20px;
+    height: 100%;
+}
+.menu_block{
+    padding: 20px;
+}
+.menu_item{
+    text-decoration: none;
+    color: #f0f0f0c9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    height: 40px;
+}

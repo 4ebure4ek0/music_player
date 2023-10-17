@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    padding: 20px;
+}
+.player_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.playlist_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

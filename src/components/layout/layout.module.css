@@ -1,0 +1,32 @@
+.container{
+    background: linear-gradient(to bottom right, rgb(206 141 230), rgb(213 98 255), rgb(115 23 255));
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    color: var(--dark);
+  }
+  .pages_bar{
+    background: var(--dark);
+    box-shadow: 10px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+  .music_bar{
+    background: var(--dark);
+    box-shadow: -10px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /*DARK MODE OS*/
+
+  @media (prefers-color-scheme: dark){
+    .container{
+      background: linear-gradient(to bottom right, rgb(77, 23, 97), rgb(110, 44, 134), rgb(45, 7, 103));
+      /* filter: invert(100%); */
+      color: #f0f0f0c9;
+    }
+  }
